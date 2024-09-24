@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement("div");
+
+        let body = document.body;
+        let p = document.createElement("p");
+        p.textContent = "nice"
+        
+        let img = document.createElement("img");
+        img.src = "https://scontent.fmnl9-6.fna.fbcdn.net/v/t39.30808-6/407058949_309941181880910_7381525018832938466_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeGoM9MLjnILBaWzWNES22mCovQb58EEx6mi9BvnwQTHqQcvsJ1c0Vlw3wqp7wdZIWUQcPKr6Dcz5sDq_sqRbGTP&_nc_ohc=bD7kv7p6vpoQ7kNvgEedAh2&_nc_ht=scontent.fmnl9-6.fna&_nc_gid=AtWoBHUEqiMq2zyGlePBo8M&oh=00_AYB84nWSCf1yKxovPYqUUf3s8yoATI_fClkCq0H5_JU8yw&oe=66F85CFD";
+        
+        div.appendChild(p);
+        div.appendChild(img);
+        
+        body.appendChild(div);
+    </script>
+</body>
+</html>
